@@ -1,5 +1,3 @@
-## 📄 README.md
-
 # Medical Insurance Cost Prediction
 
 ## Overview

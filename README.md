@@ -84,11 +84,36 @@ Develop a predictive model to estimate individual medical insurance costs and id
 ---
 
 ## 10. Tools & Environment
-**Python Libraries:**  
-- pandas, numpy → data preprocessing  
-- scikit‑learn → model training & evaluation  
-- xgboost → gradient boosting model  
-- shap → interpretability  
+**Python Libraries (berurutan sesuai proses):**
+
+1. `https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white`  
+   `https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white`  
+   → **Data preprocessing & manipulasi** (load dataset, cleaning, transformasi numerik & kategorikal)
+
+2. `https://img.shields.io/badge/YData%20Profiling-%23FF6F61.svg?style=for-the-badge&logo=pandas&logoColor=white`  
+   → **Exploratory Data Analysis (EDA)** otomatis (profiling dataset, deteksi outlier, distribusi fitur)
+
+3. `https://img.shields.io/badge/PyCaret-%230080FF.svg?style=for-the-badge&logo=pycaret&logoColor=white`  
+   → **Benchmarking awal** (eksplorasi model otomatis, perbandingan baseline)
+
+4. `https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white`  
+   → **Model training & evaluasi** (GradientBoostingRegressor, RandomForest, KNN, pipeline, evaluasi R², RMSE, CV)
+
+5. `https://img.shields.io/badge/Optuna-%2366CCFF.svg?style=for-the-badge&logo=optuna&logoColor=white`  
+   `https://img.shields.io/badge/GridSearchCV-%23FFD700.svg?style=for-the-badge&logo=scikit-learn&logoColor=black`  
+   → **Hyperparameter tuning** (Optuna untuk optimasi canggih, GridSearchCV untuk baseline)
+
+6. `https://img.shields.io/badge/SHAP-%23FF7043.svg?style=for-the-badge&logo=shap&logoColor=white`  
+   → **Model interpretability** (summary plot, bar chart, force plot, dependence plot)
+
+7. `https://img.shields.io/badge/matplotlib-%230076A8.svg?style=for-the-badge&logo=plotly&logoColor=white`  
+   `https://img.shields.io/badge/seaborn-%2300B4D8.svg?style=for-the-badge&logo=plotly&logoColor=white`  
+   → **Visualisasi hasil evaluasi & interpretasi**
+
+8. `https://img.shields.io/badge/joblib-%2300A86B.svg?style=for-the-badge&logo=python&logoColor=white`  
+   → **Model packaging & deployment** (save & load pipeline GBR Optuna)
+
+---
 
 **Environment:**  
 - Jupyter Notebook for experimentation   

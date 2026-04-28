@@ -86,17 +86,17 @@ Develop a predictive model to estimate individual medical insurance costs and id
 ## 10. Tools & Environment
 **Python Libraries (berurutan sesuai proses):**
 
-1. `https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white`  
-   `https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white`  
+1. ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
    → **Data preprocessing & manipulasi** (load dataset, cleaning, transformasi numerik & kategorikal)
 
-2. `https://img.shields.io/badge/YData%20Profiling-%23FF6F61.svg?style=for-the-badge&logo=pandas&logoColor=white`  
+2. ![YData Profiling](https://img.shields.io/badge/YData%20Profiling-%23FF6F61.svg?style=for-the-badge&logo=pandas&logoColor=white)  
    → **Exploratory Data Analysis (EDA)** otomatis (profiling dataset, deteksi outlier, distribusi fitur)
 
-3. `https://img.shields.io/badge/PyCaret-%230080FF.svg?style=for-the-badge&logo=pycaret&logoColor=white`  
+3. ![PyCaret](https://img.shields.io/badge/PyCaret-%230080FF.svg?style=for-the-badge&logo=pycaret&logoColor=white)  
    → **Benchmarking awal** (eksplorasi model otomatis, perbandingan baseline)
 
-4. `https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white`  
+4. ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)  
    → **Model training & evaluasi** (GradientBoostingRegressor, RandomForest, KNN, pipeline, evaluasi R², RMSE, CV)
 
 5. `https://img.shields.io/badge/Optuna-%2366CCFF.svg?style=for-the-badge&logo=optuna&logoColor=white`  

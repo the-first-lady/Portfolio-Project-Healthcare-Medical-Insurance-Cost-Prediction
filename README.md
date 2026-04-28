@@ -99,18 +99,18 @@ Develop a predictive model to estimate individual medical insurance costs and id
 4. ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)  
    → **Model training & evaluasi** (GradientBoostingRegressor, RandomForest, KNN, pipeline, evaluasi R², RMSE, CV)
 
-5. `https://img.shields.io/badge/Optuna-%2366CCFF.svg?style=for-the-badge&logo=optuna&logoColor=white`  
-   `https://img.shields.io/badge/GridSearchCV-%23FFD700.svg?style=for-the-badge&logo=scikit-learn&logoColor=black`  
+5. ![Optuna](https://img.shields.io/badge/Optuna-%2366CCFF.svg?style=for-the-badge&logo=optuna&logoColor=white)  
+   ![GridSearchCV](https://img.shields.io/badge/GridSearchCV-%23FFD700.svg?style=for-the-badge&logo=scikit-learn&logoColor=black)  
    → **Hyperparameter tuning** (Optuna untuk optimasi canggih, GridSearchCV untuk baseline)
 
-6. `https://img.shields.io/badge/SHAP-%23FF7043.svg?style=for-the-badge&logo=shap&logoColor=white`  
+6. ![SHAP](https://img.shields.io/badge/SHAP-%23FF7043.svg?style=for-the-badge&logo=shap&logoColor=white) 
    → **Model interpretability** (summary plot, bar chart, force plot, dependence plot)
 
-7. `https://img.shields.io/badge/matplotlib-%230076A8.svg?style=for-the-badge&logo=plotly&logoColor=white`  
-   `https://img.shields.io/badge/seaborn-%2300B4D8.svg?style=for-the-badge&logo=plotly&logoColor=white`  
+7. [Matplotlib](https://img.shields.io/badge/matplotlib-%230076A8.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-%2300B4D8.svg?style=for-the-badge&logo=plotly&logoColor=white)  
    → **Visualisasi hasil evaluasi & interpretasi**
 
-8. `https://img.shields.io/badge/joblib-%2300A86B.svg?style=for-the-badge&logo=python&logoColor=white`  
+8. ![Joblib](https://img.shields.io/badge/joblib-%2300A86B.svg?style=for-the-badge&logo=python&logoColor=white)  
    → **Model packaging & deployment** (save & load pipeline GBR Optuna)
 
 ---
